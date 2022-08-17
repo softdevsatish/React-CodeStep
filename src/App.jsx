@@ -24,13 +24,21 @@ export default App;
 */
 //=====================================================================
 
+
+import React from "react";
+import UnControlledCompo from "./components/UnControlledCompo"
+
+
 function App() {
+
   return (
     <div>
-
-    </div>
-
-  );
-};
+      <UnControlledCompo />
+    </div >
+  )
+}
 
 export default App;
+
+
+

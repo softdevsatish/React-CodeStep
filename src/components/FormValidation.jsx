@@ -7,12 +7,12 @@ const FormValidation = () => {
     const [userErr, setUserErr] = useState(false);
     const [passErr, setpassErr] = useState(false);
     const handleSubmit = (e) => {
-        if (userId.length < 3 || password.length < 5) {
-            alert("Enter Valid ID/Password")
-        }
-        else {
-            alert("All is Well!!")
-        }
+        // if (userId.length < 3 || password.length < 5) {
+        //     alert("Enter Valid ID/Password")
+        // }
+        // else {
+        //     alert("All is Well!!")
+        // }
         e.preventDefault();
     }
     const userHandler = (e) => {
