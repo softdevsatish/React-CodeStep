@@ -26,14 +26,14 @@ export default App;
 
 
 import React from "react";
-import UnControlledCompo from "./components/UnControlledCompo"
+import MyApp from "./components/DynamicRoutingWithParams/MyApp"
 
 
 function App() {
 
   return (
     <div>
-      <UnControlledCompo />
+      <MyApp />
     </div >
   )
 }
